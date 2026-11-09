@@ -1,0 +1,13 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.2, pytest-9.2.0, pluggy-1.7.0 -- /home/codespace/.python/current/bin/python
+cachedir: .pytest_cache
+rootdir: /workspaces/pbl-qualidade-de-soft/atividade04
+plugins: platformdirs-4.14.0, anyio-4.15.1
+collecting ... collected 4 items
+
+tests/test_localeats.py::test_tela_de_login_permite_abrir_cadastro PASSED [ 25%]
+tests/test_regras_localeats.py::test_pedido_no_valor_minimo_e_aceito PASSED [ 50%]
+tests/test_regras_localeats.py::test_pedido_abaixo_do_minimo_nao_e_aceito PASSED [ 75%]
+tests/test_regras_localeats.py::test_valor_negativo_gera_value_error PASSED [100%]
+
+============================== 4 passed in 1.44s ===============================
